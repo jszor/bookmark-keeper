@@ -1,9 +1,24 @@
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #6495ED;
+    --tertiary-color: #EDBD64;
+    --quaternary-color: #ED8F64;
+    --border-radius: 5px;
+}
+
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: cornflowerblue;
+    background: var(--secondary-color);
 }
 
+h1 {
+    color: var(--secondary-color);
+    padding: 20px;
+    background: var(--primary-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
